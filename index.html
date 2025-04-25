@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+    <meta name="description" content="Tanvir Ahmad Vhora - Information Technology Student & Front-End Developer Portfolio">
+    <meta name="theme-color" content="#1a202c">
+    <title>Tanvir Ahmad Vhora - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Preload critical assets -->
+    <link rel="preload" href="assets/img/Tanvir.jpg" as="image">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="container">
+            <nav id="navbar" aria-label="Main navigation">
+                <a href="#home" class="logo">
+                    <img src="assets/img/Tanvir.jpg" alt="Tanvir Vhora" class="logo-img" width="40" height="40">
+                    Tanvir Vhora
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#blog">Blog</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="theme-toggle" role="button" aria-label="Toggle dark/light theme" tabindex="0">
+                    <i class="fas fa-sun" aria-hidden="true"></i>
+                    <i class="fas fa-moon" aria-hidden="true"></i>
+                </div>
+                <!-- Update the hamburger button to be a proper button for accessibility -->
+                <button class="hamburger" role="button" aria-label="Toggle menu" aria-expanded="false" aria-controls="nav-links" tabindex="0">
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                    <div class="bar"></div>
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text" data-aos="fade-right" data-aos-duration="1000">
+                    <h1>Tanvir Ahmad Vhora</h1>
+                    <h2>Information Technology Student & Web Developer</h2>
+                    <p>Passionate about creating responsive and user-friendly web experiences</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn primary-btn">View Projects</a>
+                        <a href="#contact" class="btn secondary-btn">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image" data-aos="fade-left" data-aos-duration="1000">
+                    <img src="assets/img/Tanvir.jpg" alt="Tanvir Ahmad Vhora" width="400" height="400">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <a href="#about" aria-label="Scroll to About section">
+                <span></span>
+                <span></span>
+                <span></span>
+            </a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">About Me</h2>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-up" data-aos-delay="200">
+                    <p>I am a B.Tech/BE student in Information Technology at G H Patel College of Engineering & Technology, Anand, Gujarat. I am passionate about technology and have strong skills in HTML5, CSS3, JS and problem-solving. I am also a team player and have excellent communication skills. I am eager to learn and grow, and I am confident that I can make a significant contribution to the field of Information Technology.</p>
+                    
+                    <div class="about-details">
+                        <div class="education" data-aos="fade-right" data-aos-delay="300">
+                            <h3>Education</h3>
+                            <div class="timeline-item">
+                                <h4>Bachelor of Technology in Information Technology</h4>
+                                <p>G H Patel College of Engineering & Technology, Anand, Gujarat</p>
+                                <p class="timeline-year">2022 - 2026 (Expected)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="experience" data-aos="fade-left" data-aos-delay="300">
+                            <h3>Work Experience</h3>
+                            <div class="timeline-item">
+                                <h4>Front-End Developer Intern</h4>
+                                <p>CodeAlpha</p>
+                                <p class="timeline-year">July 2024 - August 2024</p>
+                                <ul>
+                                    <li>Developed and maintained user interfaces for web applications using HTML, CSS, and JavaScript.</li>
+                                    <li>Collaborated with designers and back-end developers to implement responsive and user-friendly interfaces.</li>
+                                    <li>Contributed to the optimization of website performance and accessibility.</li>
+                                    <li>Gained valuable experience in a fast-paced, collaborative environment.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Skills</h2>
+            <div class="skills-content">
+                <div class="technical-skills" data-aos="fade-right" data-aos-delay="200">
+                    <h3>Technical Skills</h3>
+                    <div class="skill-bars">
+                        <div class="skill-item">
+                            <div class="skill-name-level">
+                                <span>HTML</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-progress" style="width: 0%;" data-width="90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name-level">
+                                <span>CSS</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-progress" style="width: 0%;" data-width="85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name-level">
+                                <span>JavaScript</span>
+                                <span>75%</span>
+                            </div>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-progress" style="width: 0%;" data-width="75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name-level">
+                                <span>React.js</span>
+                                <span>70%</span>
+                            </div>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-progress" style="width: 0%;" data-width="70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name-level">
+                                <span>Python</span>
+                                <span>65%</span>
+                            </div>
+                            <div class="skill-bar" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">
+                                <div class="skill-progress" style="width: 0%;" data-width="65%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="other-skills" data-aos="fade-left" data-aos-delay="200">
+                    <h3>Other Skills</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">Machine Learning & AI</span>
+                        <span class="skill-tag">Data Engineering</span>
+                        <span class="skill-tag">Problem Solving</span>
+                        <span class="skill-tag">Team Collaboration</span>
+                        <span class="skill-tag">Communication</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Projects</h2>
+            <div class="projects-content">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="public/alpha-athleete.png" alt="Alpha Athleete Project" width="500" height="200">
+                    </div>
+                    <div class="project-info">
+                        <h3>Alpha Athleete</h3>
+                        <p>An e-commerce website for premium athletic wear with a minimalist design. Features product listings, shopping cart, and checkout functionality.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Responsive Design</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://alpha-athleete.vercel.app" target="_blank" rel="noopener" class="btn project-btn">View Project</a>
+                            <a href="https://github.com/Tanvir1610/alpha-athleete" target="_blank" rel="noopener" class="btn project-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="public/word-block-puzzle.png" alt="Word Block Puzzle Game" width="500" height="200">
+                    </div>
+                    <div class="project-info">
+                        <h3>Word Block Puzzle</h3>
+                        <p>An interactive word puzzle game where players need to form words from a grid of letter blocks. Features multiple levels and scoring system.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Game Development</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://word-block-puzzel-game.vercel.app" target="_blank" rel="noopener" class="btn project-btn">Play Game</a>
+                            <a href="https://github.com/Tanvir1610/Word-Block-Puzzel-Game" target="_blank" rel="noopener" class="btn project-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="public/tic-tac-toe-1.png" alt="Tic Tac Toe Game" width="500" height="200">
+                    </div>
+                    <div class="project-info">
+                        <h3>Tic Tac Toe</h3>
+                        <p>A classic Tic Tac Toe game with a modern UI. Features two-player mode, win detection, and game state tracking.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                            <span class="tag">Game Development</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://tic-tac-toe-iota-sooty.vercel.app" target="_blank" rel="noopener" class="btn project-btn">Play Game</a>
+                            <a href="https://github.com/Tanvir1610/Tic-Tac-Toe" target="_blank" rel="noopener" class="btn project-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-image">
+                        <img src="public/calc.png" alt="Calculator Project" width="500" height="200">
+                    </div>
+                    <div class="project-info">
+                        <h3>Calculator</h3>
+                        <p>A functional calculator built using HTML, CSS, and JavaScript during my internship at CodeAlpha. Features basic arithmetic operations with a clean, user-friendly interface.</p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://calculator-tanvir.vercel.app/" target="_blank" rel="noopener" class="btn project-btn">View Project</a>
+                            <a href="https://github.com/Tanvir1610/Calculator" target="_blank" rel="noopener" class="btn project-btn">Source Code</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="blog">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">My Blog</h2>
+            <div class="blog-content">
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-image">
+                        <img src="public/Web_Development.jpg" alt="Web Development Trends" width="350" height="200">
+                    </div>
+                    <div class="blog-info">
+                        <div class="blog-date">April 15, 2024</div>
+                        <h3>Web Development Trends in 2024</h3>
+                        <p>Exploring the latest trends in web development including AI integration, serverless architecture, and progressive web apps.</p>
+                        <a href="https://www.webskitters.com/15-web-development-trends" target="_blank" rel="noopener" class="read-more">Read More <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-image">
+                        <img src="public/Top-Javascript-frameworks.jpg" alt="JavaScript Frameworks" width="350" height="200">
+                    </div>
+                    <div class="blog-info">
+                        <div class="blog-date">March 22, 2024</div>
+                        <h3>Comparing Modern JavaScript Frameworks</h3>
+                        <p>A detailed comparison of React, Vue, and Angular - helping you choose the right framework for your next project.</p>
+                        <a href="https://www.jspanther.com/blog/top-javascript-frameworks" target="_blank" rel="noopener" class="read-more">Read More <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="blog-image">
+                        <img src="public/responsive-design.png" alt="Responsive Design" width="350" height="200">
+                    </div>
+                    <div class="blog-info">
+                        <div class="blog-date">February 10, 2024</div>
+                        <h3>Mastering Responsive Design</h3>
+                        <p>Tips and techniques for creating websites that look great on all devices, from mobile phones to large desktop screens.</p>
+                        <a href="https://medium.com/design-bootcamp/mastering-responsive-design-from-history-to-best-practices-ec230da0336d" target="_blank" rel="noopener" class="read-more">Read More <i class="fas fa-arrow-right" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="certificates">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Certificates</h2>
+            <div class="certificates-content">
+                <div class="certificate-card" data-aos="fade-up" data-aos-delay="100">
+                    <h3>Introduction to Structured Query Language (SQL)</h3>
+                    <p class="certificate-issuer">Charutar Vidya Mandal (CVM), Anand, Gujarat</p>
+                    <div class="certificate-details">
+                        <p>This certificate demonstrates my proficiency in using SQL to query and manipulate data. I have learned how to create and manage databases, write complex queries, and analyze data using various functions and operators.</p>
+                        <p>I am confident in my ability to use SQL to extract meaningful insights from data and support data-driven decision-making.</p>
+                        <div class="certificate-skills">
+                            <h4>Key Skills:</h4>
+                            <ul>
+                                <li>Database creation and management</li>
+                                <li>Writing complex SQL queries</li>
+                                <li>Data analysis and manipulation</li>
+                                <li>Using functions and operators</li>
+                                <li>Extracting insights from data</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title" data-aos="fade-up">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-delay="100">
+                    <h3>Contact Information</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope" aria-hidden="true"></i>
+                            <p>vhoratanvir1610@gmail.com</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone" aria-hidden="true"></i>
+                            <p>+91 6354686821</p>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt" aria-hidden="true"></i>
+                            <p>Anand, Gujarat, India</p>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="https://www.linkedin.com/in/tanvirahmadvhora/" target="_blank" rel="noopener" aria-label="LinkedIn Profile"><i class="fab fa-linkedin" aria-hidden="true"></i></a>
+                        <a href="https://github.com/Tanvir1610" target="_blank" rel="noopener" aria-label="GitHub Profile"><i class="fab fa-github" aria-hidden="true"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form" data-aos="fade-left" data-aos-delay="100">
+                    <h3>Send Me a Message</h3>
+                    <form id="contactForm" action="https://formspree.io/f/xovdqwby" method="POST">
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">Subject</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary-btn">Send Message</button>
+                        <div id="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Tanvir Ahmad Vhora. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
